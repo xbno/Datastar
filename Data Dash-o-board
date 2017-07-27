@@ -1,0 +1,38 @@
+Data Dash-o-board
+
+Questions: (how do we formulate problem)
+When are people gunna quit?
+When will they give up on a problem?
+How do you define if somebody is stuck?
+
+Data: (raw to collect)
+User:
+  Registration time
+  Misc registration questions, background, etc
+  Modules completed
+User Session:
+  Login
+  Logout
+User Activity:
+  Hint used
+  Solution Used
+  # of runs
+  Errors per prob
+  Timestamp start
+  timestamp end
+  Help button feedback
+  Success flag
+  Task
+  Module
+
+Dashboard Metrics: (aggregated data)
+
+Approach:
+1. See data in a useful way
+  API
+2. Rules based model
+  Errors
+  Incorrect
+3. Automate tests + hints
+  Errors
+  Incorrect
